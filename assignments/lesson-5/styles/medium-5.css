@@ -13,10 +13,26 @@
         
     }
     
-  section.forecast { 
+    section.forecast { 
       display: inline; 
+      padding: 2em;
+      margin: 20px;
     }  /* show the 10-day forecast with the medium view and up */
-  
+ 
+    th {
+        border-style:solid;
+        border-color:#4D0013;      
+        background-color: #9078AD;
+        padding: .5em;
+    }
+    
+    td {
+        border-style:solid;
+        border-color:#9078AD;
+        background-color:#E99BAF;
+        padding: .5em;
+        
+    }
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
 
 }

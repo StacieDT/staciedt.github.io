@@ -4,7 +4,7 @@
 
 body {
     font-family: "Candara", "Calibri", sans-serif;
-  font-size: 16px;
+    font-size: 16px;
   /* Declare the base font-family - from google font api or other */
     width:960px;
     max-width: 100%;
@@ -13,35 +13,42 @@ body {
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
+
 h1, h2, h3, h4, h5, h6{
     font-family: "Poor Richard", "Georgia", cursive;
     font-size: 2.2em;
+    padding: .5em;
 }
+
 header {
     background-color: #415100;
     color:#E4F5A3;
     }
 header h1 {
     text-align:center;
-}
+    }
 header img {
     float:left;
-}
+    }
 header .subheading {
     text-align: center;
     padding: .5em;
-}
+    border-top-style:dashed;
+    border-top-color: #E4F5A3;
+    }   
 
 nav {
     background-color:#8DA336;
     text-align: center;
     padding: 1em;
-}
+    }
+
 nav button {}
 nav ul {}
 nav ul li {
     padding: .5em;
-}
+    }
+
 nav ul li a {}
 nav ul li.active a {}
 nav ul li a:hover {}
@@ -51,18 +58,32 @@ main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
 
-section {}
+section {
+    padding: 2em;
+    margin: 5px;
+    }
 
 section.forecast{
     display:none;
-}
+    
+    }
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: ???; /* fill the page in the small/phone view */
   margin: ???;
 }
 
-footer {}
+article{
+    float:left;
+    text-align: center;
+    background-color: #C26179;
+    color: #1D0539;
+}
+footer {
+    background-color: #667A14;
+    color: #E4F5A3;
+    text-align: center;
+}
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 
